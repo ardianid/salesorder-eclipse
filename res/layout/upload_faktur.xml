@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="right"
+    android:gravity="right"
+    android:orientation="vertical" >
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_vertical" >
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|center_vertical" >
+
+            <CheckBox
+                android:id="@+id/cekupl_order"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal|center_vertical" />
+
+        </TableRow>
+
+        <TextView
+            android:id="@+id/tsales_upl_order"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/TableRow01"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tableRow2"
+        android:background="@color/white" >
+
+    </TableRow>
+
+    <ListView
+        android:id="@+id/list_uplorder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tbrow_view0"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TableRow01">
+    </ListView>
+
+    <TableRow
+        android:id="@+id/tbrow_view0"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true" >
+
+        <Button
+            android:id="@+id/btkirim_uplorder"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:text="@string/bt_kirim" />
+
+        <Button
+            android:id="@+id/btclose_uplorder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bt_back" />
+    </TableRow>
+
+</RelativeLayout>

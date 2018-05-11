@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TableRow
+        android:id="@+id/tbrow_view0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tuser_detail"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="@string/kd_barang" />
+
+        <TextView
+            android:id="@+id/tnama_ub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sama_dengan" />
+
+        <TextView
+            android:id="@+id/tkode_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/kosong" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="@string/nama_barang" />
+
+        <TextView
+            android:id="@+id/tlu_customer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sama_dengan" />
+
+        <TextView
+            android:id="@+id/tnama_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/kosong" />
+
+    </TableRow>
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/vlist_ordermanual"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3.72" >
+    </ListView>
+
+    <TableRow
+        android:id="@+id/TableRow01"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/white" >
+    </TableRow>
+
+    <Button
+        android:id="@+id/btback_loadrute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bt_cancel" />
+
+</LinearLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tuser_detail"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/no_pengajuan" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tuser_detail"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/tuser_detail"
+        android:text="@string/sama_dengan" />
+
+    <TextView
+        android:id="@+id/tv_nopeng_upl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tuser_detail"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/textView7"
+        android:text="@string/kosong" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tuser_detail"
+        android:text="@string/nama_cust" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView3"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_toRightOf="@+id/textView3"
+        android:text="@string/sama_dengan" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView3"
+        android:text="@string/alamat_cust" />
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextView02"
+        android:layout_alignTop="@+id/TextView02"
+        android:layout_toRightOf="@+id/TextView02"
+        android:text="@string/sama_dengan" />
+
+    <TextView
+        android:id="@+id/tv_alamat_upl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextView02"
+        android:layout_alignTop="@+id/TextView02"
+        android:layout_toRightOf="@+id/TextView03"
+        android:text="@string/kosong" />
+
+    <TextView
+        android:id="@+id/tv_nama_upl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/TextView02"
+        android:layout_toRightOf="@+id/textView8"
+        android:text="@string/kosong" />
+
+</RelativeLayout>

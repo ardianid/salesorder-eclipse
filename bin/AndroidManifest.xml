@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="slo.fajar.lestari"
+    android:versionCode="1"
+    android:versionName="1.0" >
+    
+    <uses-sdk android:minSdkVersion="8" />
+    
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	
+    <application
+        android:icon="@drawable/salesorder"
+        android:label="@string/app_name" 
+        android:allowBackup="false" >
+        
+        <activity
+            android:name="SLOActivity" android:label="@string/app_name">
+            
+            
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            
+        </activity>
+        
+        <activity android:name="jlogin" android:label="MENU" >  </activity>
+        
+        <activity android:name="group_outl" android:label="Pengajuan NOO"> </activity>
+        
+        <activity android:name="faktur" android:label="@string/app_name"> </activity>
+        
+        <activity android:name="jfaktur2" android:label="@string/jdul_order"> </activity>
+        
+        <activity android:name="jadd_order" android:label="@string/jdul_order"> </activity>
+        
+        <activity android:name="setcoord" android:label="@string/jdul_coord"> </activity>
+        
+        <activity android:name="Jpnoo0" android:label="@string/jdul_noo"> </activity>
+        
+        <activity android:name="jpnoo" android:label="@string/jdul_noo"> </activity>
+        
+        <activity android:name="Jpnoo2" android:label="@string/jdul_noo"> </activity>
+        
+        <activity android:name="Jpnoo3" android:label="@string/jdul_noo"> </activity>
+        
+        <activity android:name="Jpnoo4" android:label="@string/jdul_noo"> </activity>
+        <activity android:name="Jupload" android:label="@string/jdul_upload"></activity>
+        <activity android:name="Jupload_fakt" android:label="@string/jdul_upl_order"></activity>
+        <activity android:name="Jupload_noo" android:label="@string/jdul_upl_noo"></activity>
+        <activity android:name="Jupload_cust" android:label="@string/jdul_upl_cust"></activity>
+        <activity android:name="CupdateData" android:label="@string/jdul_updatemaster"></activity>
+        <activity android:name="Cutility" android:label="@string/jdul_utility"></activity>
+        <activity android:name="Cuseradd" android:label="@string/jdul_useradd"></activity>
+        <activity android:name="Clengkapi_hpktp" android:label="@string/jdul_lengkapi"></activity>
+        <activity android:label="@string/jdul_useradd" android:name="Cuseraddbykod"></activity>
+        
+    </application>
+    
+    
+</manifest>

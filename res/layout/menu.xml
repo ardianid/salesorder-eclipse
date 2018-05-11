@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/widget32"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/listutility"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.85" >
+    </ListView>
+
+    <TableRow
+        android:id="@+id/widget50"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+    </TableRow>
+
+    <TextView
+        android:id="@+id/widget51"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/email_salesfl"
+        android:textSize="13sp" />
+
+</LinearLayout>

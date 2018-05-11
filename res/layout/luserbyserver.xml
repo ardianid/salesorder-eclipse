@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="@string/kd_sales" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sama_dengan" />
+
+        <EditText
+            android:id="@+id/tkode_ub"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:inputType="text|textCapCharacters" />
+
+        <ImageButton
+            android:id="@+id/bt_cari_ub"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:contentDescription="@+id/btbrowsed"
+            android:src="@drawable/search" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tableRow2" >
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="@string/nama_cust" />
+
+        <TextView
+            android:id="@+id/TextView03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sama_dengan" />
+
+        <EditText
+            android:id="@+id/tnamasal_ub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:ems="10"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:inputType="textPostalAddress|textMultiLine" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/TableRow01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tableRow1" >
+
+        <TextView
+            android:id="@+id/TextView05"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="@string/namauser_ud" />
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sama_dengan" />
+
+        <EditText
+            android:id="@+id/tuserub"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:inputType="text" >
+
+            <requestFocus />
+        </EditText>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/TableRow02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TableRow01" >
+
+        <TextView
+            android:id="@+id/TextView07"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="@string/pwd_lu" />
+
+        <TextView
+            android:id="@+id/TextView06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sama_dengan" />
+
+        <EditText
+            android:id="@+id/tpwd_ub"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:inputType="textPassword" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true" >
+
+        <Button
+            android:id="@+id/btsimpan_ub"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/bt_simpan" />
+
+    </TableRow>
+
+    <Button
+        android:id="@+id/btcancel_ub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/tableRow3"
+        android:text="@string/bt_back" />
+
+</RelativeLayout>

@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tnama_ub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lu_judul"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TableRow
+        android:id="@+id/TableRow02x"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/white" >
+    </TableRow>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.74" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/tuser_detail"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lu_customer"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sama_dengan"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/tlu_customer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="14dp"
+                    android:text="@string/kosong"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/TextView01"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lu_customer2"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/TextView02"
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sama_dengan"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/tlu_groupcust"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="14dp"
+                    android:text="@string/kosong"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/TextView03"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lu_barang"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/TextView04"
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sama_dengan"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/tlu_barang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="14dp"
+                    android:text="@string/kosong"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/TextView05"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lu_area"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/TextView06"
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sama_dengan"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/tlu_area"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:text="@string/kosong"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/TextView07"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lu_areasales"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/TextView08"
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sama_dengan"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/tlu_termsales"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="14dp"
+                    android:text="@string/kosong"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/TextView09"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lu_pasar"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/TextView10"
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sama_dengan"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/tlu_pasar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:text="@string/kosong"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="36dp" >
+
+                <TextView
+                    android:id="@+id/TextView13"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lu_sales"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/TextView11"
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sama_dengan"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/tlu_sales"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/kosong"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/TextView12"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lu_kondisi"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/TextView16"
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sama_dengan"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/tlu_kondisi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/kosong"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/TextView15"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lu_other"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/TextView14"
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sama_dengan"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/tlu_other"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/kosong"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tlu_stat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/kosong"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TableRow
+            android:id="@+id/TableRow01"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white" >
+        </TableRow>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btbrowsed2"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="@string/bt_updatemas" />
+
+            <Button
+                android:id="@+id/bt_browsedcl"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/bt_updatemas2" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btkembali_sinc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bt_back" />
+
+    </LinearLayout>
+
+</LinearLayout>

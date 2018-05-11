@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tuser_detail"
+        android:layout_width="44dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tkode_add"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/kd_barang"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tnama_ub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tkode_add"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/tuser_detail"
+        android:text="@string/sama_dengan" />
+
+    <EditText
+        android:id="@+id/tkode_add"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/tnama_ub"
+        android:ems="10"
+        android:inputType="none|text" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="44dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tnama_add2"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tkode_add"
+        android:layout_marginTop="20dp"
+        android:text="@string/nama_barang"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tlu_customer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tnama_add2"
+        android:layout_below="@+id/tkode_add"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@+id/textView3"
+        android:text="@string/sama_dengan" />
+
+    <EditText
+        android:id="@+id/tnama_add2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tkode_add"
+        android:layout_toRightOf="@+id/tlu_customer"
+        android:ems="10"
+        android:inputType="textMultiLine" />
+
+    <TableRow
+        android:id="@+id/TableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tnama_add2" >
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="44dp"
+            android:layout_height="wrap_content"
+            android:text="@string/qty1"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sama_dengan" />
+
+        <EditText
+            android:id="@+id/tqty1_add"
+            android:layout_width="75dp"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/tsat1_add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/emptys"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/TableRow01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TableRow1" >
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="44dp"
+            android:layout_height="wrap_content"
+            android:text="@string/qty2"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/TextView03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sama_dengan" />
+
+        <EditText
+            android:id="@+id/tqty2_add"
+            android:layout_width="75dp"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/tsat2_add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/emptys"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/TableRow02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TableRow01" >
+
+        <TextView
+            android:id="@+id/TextView05"
+            android:layout_width="44dp"
+            android:layout_height="wrap_content"
+            android:text="@string/qty3"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/TextView06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sama_dengan" />
+
+        <EditText
+            android:id="@+id/tqty3_add"
+            android:layout_width="75dp"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/tsat3_add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/emptys"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <Button
+        android:id="@+id/btback_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="@string/bt_back" />
+
+    <Button
+        android:id="@+id/btok_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btback_add"
+        android:layout_alignParentLeft="true"
+        android:text="@android:string/ok" />
+
+</RelativeLayout>

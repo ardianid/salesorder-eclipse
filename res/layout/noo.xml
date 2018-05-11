@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget32"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+
+    <ScrollView
+        android:id="@+id/widget33"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.63" >
+
+        <TableLayout
+            android:id="@+id/widget36"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:stretchColumns="1" >
+
+            <TableRow
+                android:id="@+id/widget54"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/widget55"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/telp1" />
+
+                <EditText
+                    android:id="@+id/telp1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="37dp"
+                    android:hint="@string/format_telp"
+                    android:textSize="16sp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/widget58"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/widget59"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/telp2" />
+
+                <EditText
+                    android:id="@+id/telp2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="37dp"
+                    android:hint="@string/format_telp"
+                    android:textSize="16sp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/widget68"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/widget69"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hp1" />
+
+                <EditText
+                    android:id="@+id/hp1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="37dp"
+                    android:hint="@string/format_hp"
+                    android:textSize="16sp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/widget77"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/widget79"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hp2" />
+
+                <EditText
+                    android:id="@+id/hp2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="37dp"
+                    android:hint="@string/format_hp"
+                    android:textSize="16sp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/widget81"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/widget82"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/group" />
+
+                <Spinner
+                    android:id="@+id/group"
+                    android:layout_width="wrap_content"
+                    android:layout_height="37dp"
+                    android:drawSelectorOnTop="true"
+                    android:textSize="16sp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/widget84"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/widget85"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tipe_outl" />
+
+                <Spinner
+                    android:id="@+id/tipe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="37dp"
+                    android:drawSelectorOnTop="true"
+                    android:textSize="16sp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/widget86"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/widget87"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/jenis_outl" />
+
+                <Spinner
+                    android:id="@+id/jenis"
+                    android:layout_width="wrap_content"
+                    android:layout_height="37dp"
+                    android:drawSelectorOnTop="true"
+                    android:textSize="16sp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/widget88"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/widget89"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rayon" />
+
+                <Spinner
+                    android:id="@+id/rayon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="37dp"
+                    android:drawSelectorOnTop="true"
+                    android:textSize="16sp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/widget90"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/widget91"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rute" />
+
+                <Spinner
+                    android:id="@+id/rute"
+                    android:layout_width="wrap_content"
+                    android:layout_height="37dp"
+                    android:drawSelectorOnTop="true"
+                    android:textSize="16sp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/widget92"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/widget93"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pasar" />
+
+                <Spinner
+                    android:id="@+id/pasar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="37dp"
+                    android:drawSelectorOnTop="true"
+                    android:textSize="16sp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/widget94"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/widget95"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lingkungan" />
+
+                <Spinner
+                    android:id="@+id/lingkungan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="37dp"
+                    android:drawSelectorOnTop="true"
+                    android:textSize="16sp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/widget96"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/widget97"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/no_rek" />
+
+                <EditText
+                    android:id="@+id/norek"
+                    android:layout_width="wrap_content"
+                    android:layout_height="37dp"
+                    android:hint="@string/hint_nama_outlt"
+                    android:textSize="16sp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/widget98"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/widget99"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bank" />
+
+                <EditText
+                    android:id="@+id/bank"
+                    android:layout_width="wrap_content"
+                    android:layout_height="37dp"
+                    android:hint="@string/hint_nama_outlt"
+                    android:textSize="16sp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/widget100"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/widget101"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/atas_nama" />
+
+                <EditText
+                    android:id="@+id/atas_nama"
+                    android:layout_width="wrap_content"
+                    android:layout_height="37dp"
+                    android:hint="@string/hint_nama_outlt"
+                    android:textSize="16sp" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+    <TableRow
+        android:id="@+id/widgetaja"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/kirim"
+            android:layout_width="70dp"
+            android:layout_height="35dp"
+            android:text="@string/button_kirim"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/batal"
+            android:layout_width="65dp"
+            android:layout_height="35dp"
+            android:text="@string/bt_back"
+            android:textStyle="bold" />
+    </TableRow>
+
+</LinearLayout>
