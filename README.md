@@ -11,7 +11,7 @@ dengan request json menggunakan php
 namun disini saya hanya upload bagian sales,
 
 keunggulan dari aplikasi ini adalah :
-1. sales tidak bisa orderan apabila tidak ditoko yang bersangkutan (lock menggunakan gps dengan jarak tertentu)
+1. sales tidak bisa input pemesanan barang apabila tidak ditoko yang bersangkutan (lock menggunakan gps dengan jarak tertentu)
 2. bisa online dan offline (karena tidak semua area terdapat sinyal yang memadai, sales meyimpan orderan apabila gangguan/tidak ada sinyal dan mengirimkannya apabila sudah tersedia jaringan)
 3. dapat mengajukan permohonan toko baru langsung dari aplikasi
 
